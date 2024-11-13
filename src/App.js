@@ -1,24 +1,32 @@
+import * as React from 'react'
+import * as XLSX from 'xlsx';
+import {BrowserRouter} from 'react-router-dom';
+
 import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+
+      <div className="App">
+        <header className="App-header" > </header>
+
+        <div className="header">
+          <a href="#default" className="animation">Animation</a>
+          <div className="header-right">
+            <a className="active" href="#reactrouter">React Router</a>
+            <a href="#axios">Axios</a>
+            <a href="#excel">Excel</a>
+            <a href="#functionA">Function A</a>
+            <a href="#function B">Function B</a>
+            <a href="#function C">Function C</a>
+          </div>
+        </div>
+
+      </div>
+
+    </BrowserRouter>
   );
 }
 
