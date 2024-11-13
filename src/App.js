@@ -5,29 +5,31 @@ import {BrowserRouter} from 'react-router-dom';
 import logo from './logo.svg';
 import './App.css';
 
+import AppRouter from './nav/approuter.jsx';
+import ResponsiveHeader from './nav/header.jsx';
+
+
 function App() {
   return (
     <BrowserRouter>
-
       <div className="App">
         <header className="App-header" > </header>
+        <ResponsiveHeader />
 
-        <div className="header">
-          <a href="#default" className="animation">Animation</a>
-          <div className="header-right">
-            <a className="active" href="#reactrouter">React Router</a>
-            <a href="#axios">Axios</a>
-            <a href="#excel">Excel</a>
-            <a href="#functionA">Function A</a>
-            <a href="#function B">Function B</a>
-            <a href="#function C">Function C</a>
-          </div>
-        </div>
+        <AppRouter />
 
       </div>
-
     </BrowserRouter>
   );
 }
 
 export default App;
+
+/*
+    <BrowserRouter>
+    </BrowserRouter>
+
+  <ResponsiveHeader />
+
+  <SlideCarousel />
+ */
