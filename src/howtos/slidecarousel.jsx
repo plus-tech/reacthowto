@@ -1,6 +1,7 @@
 import * as React from 'react';
 
 import './slidecarousel.css';
+import Reference from '../comm/reference.jsx';
 
 
 const images = require.context('../imgs', true);
@@ -25,7 +26,7 @@ export default function SlideCarousel() {
   }
 
   return (
-    <div>
+    <div className='slideshow'>
       <div className="slideshow-container">
         {
           imageList.map((image, index) => (
@@ -34,7 +35,7 @@ export default function SlideCarousel() {
               style={{display: `${currImg == index? "block" : "none"}`}}
           >
               <div className="numbertext">{currImg+1} / {numOfImg}</div>
-              <img src={imageList[index]} object-fit='contain' />
+              <img className="slideimg" src={imageList[index]} />
               <div className="text">Caption Text</div>
             </div>
           ))
@@ -46,14 +47,20 @@ export default function SlideCarousel() {
       <br/>
 
       <div text-align="center">
-      {
-        imageList.map((image, index) => (
-          <span className="dot" key={index}
-            onClick={() => ShowCurrImg(index-currImg)}>
-          </span>
-        ))
-      }
+        {
+          imageList.map((image, index) => (
+            <span className="dot" key={index}
+              onClick={() => ShowCurrImg(index-currImg)}>
+            </span>
+          ))
+        }
       </div>
+
+      <Reference
+        title='Makeover in React'
+        urlname='W3Schools How To: Slideshow/Carousel'
+        url='https://www.w3schools.com/howto/howto_js_slideshow.asp'
+      />
 
     </div>
   );

@@ -1,0 +1,65 @@
+/* Style the header */
+.layout .header {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Style the top navigation bar */
+.layout .topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.layout .topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.layout .topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create three unequal columns that floats next to each other */
+.layout .column {
+  float: left;
+  padding: 10px;
+}
+
+/* Left and right column */
+.layout .column.side {
+  width: 25%;
+}
+
+/* Middle column */
+.layout .column.middle {
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.layout .row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .layout .column.side, .layout .column.middle {
+    width: 100%;
+  }
+}
+
+/* Style the footer */
+.layout .footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+}
