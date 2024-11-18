@@ -1,6 +1,9 @@
 import { useNavigate } from 'react-router-dom';
 
 import './header.css';
+import { MenuItemText, MenuItemPath } from '../comm/constants.jsx';
+import IconArrowDown from '../icons/arrowdown.png';
+
 
 export default function ResponsiveHeader() {
 
@@ -8,19 +11,24 @@ export default function ResponsiveHeader() {
 
   return (
     <div className="header">
-      <a href="https://www.w3schools.com/howto/howto_css_responsive_header.asp"
-        className="sign">W3Schools How To:<br/>Responsive Header
-      </a>
+      <div className='header-left'>
+        <a className="sign"
+          href="https://www.w3schools.com/howto/howto_css_responsive_header.asp"
+        >
+          W3Schools How To:<br/>Responsive Header
+        </a>
+      </div>
       <div className="header-right">
-        <a href="#" className="menuitem" onClick={() => navigate('/slidecarousel')}>SlideShow</a>
-        <a href="#" className="menuitem" onClick={() => {navigate('/layout');}}>Layout</a>
-        <a href="#" className="menuitem" onClick={() => {navigate('/excel');}}>Excel</a>
-        <a href="#" className="menuitem" onClick={() => {navigate('/accordion');}}>Accordion</a>
-        <a href="#functionB" className="menuitem" >Function B</a>
-        <a href="#functionC" className="menuitem" >Function C</a>
+        <a href="#" className="menuitem" onClick={() => navigate(MenuItemPath.slideshow)}>{MenuItemText.slideshow}</a>
+        <a href="#" className="menuitem" onClick={() => {navigate(MenuItemPath.layout);}}>{MenuItemText.layout}</a>
+        <a href="#" className="menuitem" onClick={() => {navigate(MenuItemPath.excel);}}>{MenuItemText.excel}</a>
+        <a href="#" className="menuitem" onClick={() => {navigate(MenuItemPath.accordion);}}>{MenuItemText.accordion}</a>
+        <a href="#" className="menuitem" >{MenuItemText.default}</a>
+        <a href="#" className="menuitem" >{MenuItemText.default}</a>
 
         <div className="dropdown">
-          <button className="dropbtn">HowTOs
+          <button className="dropbtn">
+            How TOs
           </button>
           <div className="dropdown-content">
             <a href="#">How To A</a>
@@ -36,4 +44,5 @@ export default function ResponsiveHeader() {
 
 /*
 <i className="fa fa-caret-down"></i>
+<i className='icon' src={IconArrowDown} > </i>
 */

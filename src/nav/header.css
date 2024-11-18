@@ -5,6 +5,12 @@
   margin-bottom: 5px;
 }
 
+.header .header-left{
+  float: left;
+  overflow: hidden;
+  min-width: 154px;
+  border-radius: 60px;
+}
 .header a {
   float: left;
   color: black;
@@ -25,11 +31,11 @@
 }
 
 @keyframes sign-animation {
-  0%  { left:    50px; color:hsla(120, 100%, 25%, 0.1);}
-  20%  { left:   10px; color:hsla(120, 100%, 25%, 0.5);}
-  40%  { left:  -30px; color:hsla(120, 100%, 25%, 1.0);}
-  60%  { left:  -70px; color:hsla(120, 100%, 25%, 1.0);}
-  80%  { left: -110px; color:hsla(120, 100%, 25%, 0.5);}
+  0%  { left:    150px; color:hsla(120, 100%, 25%, 0.1);}
+  20%  { left:   90px; color:hsla(120, 100%, 25%, 0.5);}
+  40%  { left:   30px; color:hsla(120, 100%, 25%, 1.0);}
+  60%  { left:  -30px; color:hsla(120, 100%, 25%, 1.0);}
+  80%  { left:  -90px; color:hsla(120, 100%, 25%, 0.5);}
   100% { left: -150px; color:hsla(120, 100%, 25%, 0.1);}
   /* from { transform: rotate(0deg); }
   to { transform: rotate(360deg); } */
@@ -51,7 +57,7 @@
   color: white;
 } */
 
-.header-right {
+.header .header-right {
   float: right;
 }
 
@@ -62,7 +68,12 @@
     text-align: left;
   }
 
-  .header-right {
+  .header .header-left {
+    float: left;
+    min-width: 154px;
+  }
+
+  .header .header-right {
     float: none;
   }
 }
@@ -84,6 +95,12 @@
   background-color: inherit;
   font-family: inherit;
   margin: 0;
+}
+
+.dropdown .icon {
+  float: left;
+  min-width: 16px;
+  min-height: 16px;
 }
 
 .dropdown:hover .dropbtn {

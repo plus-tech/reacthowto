@@ -2,11 +2,16 @@
   box-sizing: border-box
 }
 .slideshow .mySlides {
-  display: none
+  display: none;
+  height: 660px;
+  overflow: hidden;
+  align-content: center;
 }
 .slideshow .slideimg {
-  vertical-align: middle;
-  object-fit: contain;
+  height: inherit;
+  max-height: inherit;
+  object-fit: contain; /* ; */
+  /* vertical-align: middle; */
   /* max-width: 1000px; */
   /* max-height: 600px; */
 }
@@ -20,9 +25,9 @@
   margin: auto;
   padding: 15px;
   background-color: #d4bb7e;
-  overflow:hidden;
-  justify-content: center;
-  align-content: center;
+  overflow: hidden;
+  /* justify-content: center; */
+  /* align-content: center; */
 }
 
 /* Next & previous buttons */

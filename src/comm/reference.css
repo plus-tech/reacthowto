@@ -4,6 +4,7 @@
   top: 90px;
   z-index: 1;
   text-align: right;
+  font-size: 0.8em; 
   animation: ref-fade infinite 10s ease-in-out;
 }
 
