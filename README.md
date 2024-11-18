@@ -1,10 +1,6 @@
 # How To
-<<<<<<< HEAD
-This is a collection of How To cook GUI components in React using plain technologies.
-<br/>
-=======
+
 This is a collection of How To cook GUI components in React using plain technologies.<br/>
->>>>>>> 904eefc1919f0488349640c68448c78147c429d8
 Inspired by [W3Schools How To](https://www.w3schools.com/howto/default.asp).
 
 <img width="1128" alt="window" src="public/shared/img/window.png">
@@ -16,11 +12,7 @@ Inspired by [W3Schools How To](https://www.w3schools.com/howto/default.asp).
   <li>CSS Layout</li>
   <li>Import from Excel</li>
   <li>Accordion</li>
-<<<<<<< HEAD
 
-=======
-  
->>>>>>> 904eefc1919f0488349640c68448c78147c429d8
 </ul>
 
 # Customer Libraries
