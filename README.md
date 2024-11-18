@@ -1,5 +1,18 @@
 # How To
+This is a collection of How To cook GUI components in React using plain technologies.<br/>
+Inspired by [W3Schools How To](https://www.w3schools.com/howto/default.asp).
 
+<img width="1128" alt="window" src="public/shared/img/window.png">
+
+### Build-up of How TOs
+<ul>
+  <li>Header Menu</li>
+  <li>Slide Show / Carousel</li>
+  <li>CSS Layout</li>
+  <li>Import from Excel</li>
+  <li>Accordion</li>
+  
+</ul>
 
 # Customer Libraries
 
