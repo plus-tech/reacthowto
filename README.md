@@ -12,7 +12,8 @@ Inspired by [W3Schools How To](https://www.w3schools.com/howto/default.asp).
   <li>CSS Layout</li>
   <li>Import from Excel</li>
   <li>Accordion</li>
-
+  <li>Floating Quick Bar</li>
+  <li>Expanding Grid</li>
 </ul>
 
 # Customer Libraries

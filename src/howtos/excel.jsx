@@ -31,8 +31,8 @@ export default function Excel() {
       <div className='excel'>
         <table id="customers">
           <tr>
-            <th>Text (imported from Excel)</th>
-            <th>Value (imported from Excel)</th>
+            <th>Text</th>
+            <th>Value</th>
           </tr>
           {
             excel && excel.map((row, index) => (

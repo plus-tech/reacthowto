@@ -1,3 +1,4 @@
+export const HeaderHeight = 99;
 
 export const MenuItemText = {
   default: 'How To',
@@ -5,6 +6,8 @@ export const MenuItemText = {
   layout: 'Layout',
   excel: 'Excel',
   accordion: 'Accordion',
+  quickbar: 'Quickbar',
+  expandinggrid: 'ExpandingGrid',
 };
 
 export const MenuItemPath = {
@@ -13,4 +16,6 @@ export const MenuItemPath = {
   layout: '/layout',
   excel: '/excel',
   accordion: '/accordion',
+  quickbar:'/quickbar',
+  expandinggrid: '/expandinggrid',
 };

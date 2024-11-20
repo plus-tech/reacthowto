@@ -1,7 +1,7 @@
 import { useNavigate } from 'react-router-dom';
 
 import './header.css';
-import { MenuItemText, MenuItemPath } from '../comm/constants.jsx';
+import { MenuItemText, MenuItemPath } from '../comm/constants.js';
 import IconArrowDown from '../icons/arrowdown.png';
 
 
@@ -23,12 +23,13 @@ export default function ResponsiveHeader() {
         <a href="#" className="menuitem" onClick={() => {navigate(MenuItemPath.layout);}}>{MenuItemText.layout}</a>
         <a href="#" className="menuitem" onClick={() => {navigate(MenuItemPath.excel);}}>{MenuItemText.excel}</a>
         <a href="#" className="menuitem" onClick={() => {navigate(MenuItemPath.accordion);}}>{MenuItemText.accordion}</a>
-        <a href="#" className="menuitem" >{MenuItemText.default}</a>
-        <a href="#" className="menuitem" >{MenuItemText.default}</a>
+        <a href="#" className="menuitem" onClick={() => {navigate(MenuItemPath.quickbar);}}>{MenuItemText.quickbar}</a>
+        <a href="#" className="menuitem" onClick={() => {navigate(MenuItemPath.expandinggrid);}}>{MenuItemText.expandinggrid}</a>
 
         <div className="dropdown">
           <button className="dropbtn">
-            How TOs
+            More&nbsp;
+            <i className="fa fa-caret-down"></i>
           </button>
           <div className="dropdown-content">
             <a href="#">How To A</a>
