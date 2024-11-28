@@ -4,7 +4,7 @@ import './slidecarousel.css';
 import Reference from '../comm/reference.jsx';
 
 
-const images = require.context('../imgs', true);
+const images = require.context('../imggallery', true);
 const imageList = images.keys().map(image => images(image));
 
 export default function SlideCarousel() {
@@ -12,8 +12,8 @@ export default function SlideCarousel() {
 
   const numOfImg = imageList.length;
 
-  console.log('# of images: ', numOfImg, ' current: ', currImg);
-  console.log(imageList[0]);
+  // console.log('# of images: ', numOfImg, ' current: ', currImg);
+  // console.log(imageList[0]);
 
   const ShowCurrImg = (incre) => {
       let curr = currImg + incre;

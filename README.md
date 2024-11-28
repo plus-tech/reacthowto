@@ -14,6 +14,7 @@ Inspired by [W3Schools How To](https://www.w3schools.com/howto/default.asp).
   <li>Accordion</li>
   <li>Floating Quick Bar</li>
   <li>Expanding Grid</li>
+  <li>Responsive Column Cards</li>
 </ul>
 
 # Customer Libraries

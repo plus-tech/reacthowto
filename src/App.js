@@ -7,6 +7,7 @@ import './App.css';
 
 import AppRouter from './nav/approuter.jsx';
 import ResponsiveHeader from './nav/header.jsx';
+import SideNav from './nav/sidenav.jsx';
 
 
 function App() {
@@ -15,7 +16,7 @@ function App() {
       <div className="App">
         <header className="App-header" > </header>
         <ResponsiveHeader />
-
+        <SideNav />
         <AppRouter />
 
       </div>
@@ -26,10 +27,13 @@ function App() {
 export default App;
 
 /*
+        <SideNav />
+  <SidenavButtons />
+
     <BrowserRouter>
     </BrowserRouter>
 
   <ResponsiveHeader />
 
   <SlideCarousel />
- */
+*/

@@ -8,6 +8,9 @@ export const MenuItemText = {
   accordion: 'Accordion',
   quickbar: 'Quickbar',
   expandinggrid: 'ExpandingGrid',
+  columncards: 'ColumnCards',
+  listgridview: 'ListGridView',
+  sidenav: 'SideNav',
 };
 
 export const MenuItemPath = {
@@ -18,4 +21,9 @@ export const MenuItemPath = {
   accordion: '/accordion',
   quickbar:'/quickbar',
   expandinggrid: '/expandinggrid',
+  columncards: '/columncards',
+  listgridview: '/listgridview',
+  sidenav: '/sidenav',
 };
+
+export const ExcelFile = 'shared/excel/anexcel.xlsx';

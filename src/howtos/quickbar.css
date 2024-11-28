@@ -1,6 +1,4 @@
-:root {
-  --headerheight: 99px;
-}
+@import '../css/commstyle.css';
 
 /* Style the quickbar */
 .quickbar {

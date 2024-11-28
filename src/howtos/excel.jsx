@@ -2,12 +2,13 @@ import * as React from 'react';
 import * as XLSX from 'xlsx';
 
 import './excel.css';
+import {ExcelFile} from '../comm/constants.js';
 import Reference from '../comm/reference.jsx';
 
 export default function Excel() {
   const [excel, setExcel] = React.useState(null);
 
-  const file =  'shared/excel/anexcel.xlsx';
+  const file =  ExcelFile;
 
   React.useEffect(() => {
     fetch(file).then((res) => res.arrayBuffer())

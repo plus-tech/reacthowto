@@ -32,9 +32,9 @@ export default function ResponsiveHeader() {
             <i className="fa fa-caret-down"></i>
           </button>
           <div className="dropdown-content">
-            <a href="#">How To A</a>
-            <a href="#">How To B</a>
-            <a href="#">How To C</a>
+            <a href="#" onClick={() => {navigate(MenuItemPath.columncards);}}>{MenuItemText.columncards}</a>
+            <a href="#" onClick={() => {navigate(MenuItemPath.listgridview);}}>{MenuItemText.listgridview}</a>
+            <a href="#">{MenuItemText.default}</a>
           </div>
         </div>
 

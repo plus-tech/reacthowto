@@ -1,0 +1,48 @@
+.columncards * {
+  box-sizing: border-box;
+}
+
+.columncards {
+  height: 100%;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+/* Float four columns side by side */
+.columncards .column {
+  float: left;
+  width: 25%;
+  padding: 0 10px 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+/* .columncards .row {margin: 0 -5px;} */
+
+/* Clear floats after the columns */
+.columncards .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .columncards .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.columncards .card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  padding-bottom: 16px;
+  text-align: center;
+}
+
+.columncards .cardimg {
+  width: 100%;
+  height: auto;
+}

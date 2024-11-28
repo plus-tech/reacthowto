@@ -1,3 +1,8 @@
+:root {
+  --headerheight: 99px;
+  --sidebtnheight: 57px;
+}
+
 /* adjust height to avoid overflow */
 .row::after{
   content: '';
