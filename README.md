@@ -15,6 +15,8 @@ Inspired by [W3Schools How To](https://www.w3schools.com/howto/default.asp).
   <li>Floating Quick Bar</li>
   <li>Expanding Grid</li>
   <li>Responsive Column Cards</li>
+  <li>List Grid View</li>
+  <li>Sidenav Overlay</li>
 </ul>
 
 # Customer Libraries
