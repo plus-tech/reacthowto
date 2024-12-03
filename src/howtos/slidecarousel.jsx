@@ -6,14 +6,10 @@ import Reference from '../comm/reference.jsx';
 
 const images = require.context('../imggallery', true);
 const imageList = images.keys().map(image => images(image));
+const numOfImg = imageList.length;
 
 export default function SlideCarousel() {
   const [currImg, setCurrImg] = React.useState(0);
-
-  const numOfImg = imageList.length;
-
-  // console.log('# of images: ', numOfImg, ' current: ', currImg);
-  // console.log(imageList[0]);
 
   const ShowCurrImg = (incre) => {
       let curr = currImg + incre;

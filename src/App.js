@@ -16,7 +16,9 @@ function App() {
       <div className="App">
         <header className="App-header" > </header>
         <ResponsiveHeader />
+
         <SideNav />
+
         <AppRouter />
 
       </div>
@@ -27,7 +29,7 @@ function App() {
 export default App;
 
 /*
-        <SideNav />
+  <SideNav />
   <SidenavButtons />
 
     <BrowserRouter>

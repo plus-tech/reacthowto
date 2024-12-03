@@ -23,7 +23,7 @@ export default function ResponsiveHeader() {
         <a href="#" className="menuitem" onClick={() => {navigate(MenuItemPath.layout);}}>{MenuItemText.layout}</a>
         <a href="#" className="menuitem" onClick={() => {navigate(MenuItemPath.excel);}}>{MenuItemText.excel}</a>
         <a href="#" className="menuitem" onClick={() => {navigate(MenuItemPath.accordion);}}>{MenuItemText.accordion}</a>
-        <a href="#" className="menuitem" onClick={() => {navigate(MenuItemPath.quickbar);}}>{MenuItemText.quickbar}</a>
+        <a href="#" className="menuitem" onClick={() => {navigate(MenuItemPath.floatingbar);}}>{MenuItemText.floatingbar}</a>
         <a href="#" className="menuitem" onClick={() => {navigate(MenuItemPath.expandinggrid);}}>{MenuItemText.expandinggrid}</a>
 
         <div className="dropdown">
@@ -34,7 +34,7 @@ export default function ResponsiveHeader() {
           <div className="dropdown-content">
             <a href="#" onClick={() => {navigate(MenuItemPath.columncards);}}>{MenuItemText.columncards}</a>
             <a href="#" onClick={() => {navigate(MenuItemPath.listgridview);}}>{MenuItemText.listgridview}</a>
-            <a href="#">{MenuItemText.default}</a>
+            <a href="#" onClick={() => {navigate(MenuItemPath.compareimg);}}>{MenuItemText.compareimg}</a>
           </div>
         </div>
 

@@ -27,6 +27,13 @@
   color: black;
 }
 
+.layout {
+  width: inherit;
+}
+.layout .row {
+  width: inherit;
+}
+
 /* Create three unequal columns that floats next to each other */
 .layout .column {
   float: left;

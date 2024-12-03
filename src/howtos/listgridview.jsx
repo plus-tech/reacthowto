@@ -11,15 +11,27 @@ export default function ListGridView(){
     if (activebtn=='Grid') {
       return (
         <div id="btnContainer">
-          <button className="btn" onClick={listView}><i className="fa fa-bars"></i> List</button>
-          <button className="btn active" onClick={gridView}><i className="fa fa-th-large"></i> Grid</button>
+          <button className="btn" onClick={listView}>
+            <i className="fa fa-bars"></i>
+            List
+          </button>
+          <button className="btn active" onClick={gridView}>
+            <i className="fa fa-th-large"></i>
+            Grid
+          </button>
         </div>
       )
     } else {
       return (
         <div id="btnContainer">
-          <button className="btn active" onClick={listView}><i className="fa fa-bars"></i> List</button>
-          <button className="btn" onClick={gridView}><i className="fa fa-th-large"></i> Grid</button>
+          <button className="btn active" onClick={listView}>
+            <i className="fa fa-bars"></i>
+            List
+          </button>
+          <button className="btn" onClick={gridView}>
+            <i className="fa fa-th-large"></i>
+            Grid
+          </button>
         </div>
       )
     }

@@ -1,6 +1,6 @@
 import './columncards.css';
 import Reference from '../comm/reference.jsx';
-import Hardanger from '../img/plant.webp';
+import Hardanger from '../img/daibosatsuryo.webp';
 
 export default function ColumnCards(){
 

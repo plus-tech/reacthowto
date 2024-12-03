@@ -6,11 +6,13 @@ export const MenuItemText = {
   layout: 'Layout',
   excel: 'Excel',
   accordion: 'Accordion',
-  quickbar: 'Quickbar',
+  floatingbar: 'FloatingBar',
   expandinggrid: 'ExpandingGrid',
   columncards: 'ColumnCards',
   listgridview: 'ListGridView',
   sidenav: 'SideNav',
+  compareimg: 'CompareImages',
+
 };
 
 export const MenuItemPath = {
@@ -19,11 +21,13 @@ export const MenuItemPath = {
   layout: '/layout',
   excel: '/excel',
   accordion: '/accordion',
-  quickbar:'/quickbar',
+  floatingbar:'/floatingbar',
   expandinggrid: '/expandinggrid',
   columncards: '/columncards',
   listgridview: '/listgridview',
   sidenav: '/sidenav',
+  compareimg: '/compareimg',
+
 };
 
 export const ExcelFile = 'shared/excel/anexcel.xlsx';

@@ -1,23 +1,20 @@
 import * as React from 'react';
 
-import './quickbar.css';
+import './floatingbar.css';
 import { HeaderHeight } from '../comm/constants.js';
 
 
-export default function QuickBar(){
+export default function FloatingBar(){
   const [top, setTop] = React.useState(HeaderHeight);
 
   React.useEffect(() => {
+    //
+    // define a function to handle scroll event
     const handleScroll = () => {
-      // Perform actions on scroll
       const scrollY = window.scrollY;
-
-      // console.log('scroll event captured.');
-      console.log('top: ', top, '  scrollY: ', scrollY);
-
       setTop(HeaderHeight+scrollY);
-
     };
+    
     window.addEventListener('scroll', handleScroll);
     return () => {
       window.removeEventListener('scroll', handleScroll);
