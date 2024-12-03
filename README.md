@@ -2,7 +2,9 @@
 
 This is a collection of How To cook GUI components in React using plain technologies.<br/>
 Inspired by [W3Schools How To](https://www.w3schools.com/howto/default.asp).
+<br/>
 Blog: [React - Makeover in React: W3Schools How To](https://plus-tec.blogspot.com/2024/12/react-makeover-in-react-w3schools-how-to.html).
+<br/>
 <img width="1128" alt="window" src="public/shared/img/window.png">
 
 ### Build-up of How TOs
