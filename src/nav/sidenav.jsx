@@ -1,13 +1,17 @@
 import * as React from 'react';
+import {useNavigate} from 'react-router-dom';
+
 import './sidenav.css'
 
 import { MenuItemText, MenuItemPath } from '../comm/constants.js';
 
 export default function SideNav(){
-  const [navwidth, setNavwidth] = React.useState(10);
+  const navigate = useNavigate();
+
+  const [navwidth, setNavwidth] = React.useState(5);
 
   const closeNav = () => {
-    setNavwidth(10);
+    setNavwidth(5);
   }
   const openNav = () => {
     setNavwidth(250);
@@ -16,7 +20,9 @@ export default function SideNav(){
   return (
     <div>
       <div className="sidenav">
-        <a className='howto' href="#">{MenuItemText.default}</a>
+        <a className='howto' href="#" onClick={() => navigate(MenuItemPath.slideshow)}>{MenuItemText.slideshow}</a>
+        <a className='howto' href="#" onClick={() => navigate(MenuItemPath.shrinknavbar)}>{MenuItemText.shrinknavbar}</a>
+        <a className='howto' href="#" onClick={() => navigate(MenuItemPath.readmoreless)}>{MenuItemText.readmoreless}</a>
         <a className='howto' href="#">{MenuItemText.default}</a>
         <a className='howto' href="#">{MenuItemText.default}</a>
         <a className='howto' href="#">{MenuItemText.default}</a>

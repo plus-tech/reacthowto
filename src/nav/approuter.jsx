@@ -12,7 +12,10 @@ import ExpandingGrid from '../howtos/expandinggrid.jsx';
 import ColumnCards from '../howtos/columncards.jsx';
 import ListGridView from '../howtos/listgridview.jsx';
 import SideNav from '../nav/sidenav.jsx';
-import CompageImg from '../howtos/compareimg.jsx';
+import CompareImg from '../howtos/compareimg.jsx';
+import ShrinkNavBar from '../howtos/shrinknavbar.jsx';
+import ReadMoreLess from '../howtos/readmoreless.jsx';
+
 
 import { MenuItemText, MenuItemPath } from '../comm/constants.js';
 
@@ -29,7 +32,10 @@ export default function AppRouter(){
         <Route path={MenuItemPath.columncards}        element={<ColumnCards />} />
         <Route path={MenuItemPath.listgridview}       element={<ListGridView />} />
         <Route path={MenuItemPath.sidenav}            element={<SideNav />} />
-        <Route path={MenuItemPath.compageimg}         element={<CompageImg />} />
+        <Route path={MenuItemPath.compareimg}         element={<CompareImg />} />
+        <Route path={MenuItemPath.shrinknavbar}       element={<ShrinkNavBar />} />
+        <Route path={MenuItemPath.readmoreless}       element={<ReadMoreLess />} />
+
       </Routes>
     );
 }

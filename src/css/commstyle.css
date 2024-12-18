@@ -1,6 +1,8 @@
 :root {
   --headerheight: 99px;
   --sidebtnheight: 57px;
+
+  --sidenavwidth: 5px;
 }
 
 /* adjust height to avoid overflow */

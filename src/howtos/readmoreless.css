@@ -1,0 +1,23 @@
+
+.readmoreless #more {
+  display: none;
+}
+
+.readmoreless p {
+  padding: 5px 5px;
+}
+
+.readmoreless .morelessbtn {
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 5px;
+  padding: 12px 20px;
+  text-decoration: none;
+  border-color: #aaa;
+}
+
+.readmoreless .morelessbtn:hover {
+  background-color: dodgerblue;
+  color: white;
+  /* border: none; */
+}

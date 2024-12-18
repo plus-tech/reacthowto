@@ -4,7 +4,7 @@ This is a collection of How To cook GUI components in React using plain technolo
 Inspired by [W3Schools How To](https://www.w3schools.com/howto/default.asp).
 <br/>
 Blog: [React - Makeover in React: W3Schools How To](https://plus-tec.blogspot.com/2024/12/react-makeover-in-react-w3schools-how-to.html).
-<br/>
+<br/><br/>
 <img width="1128" alt="window" src="public/shared/img/window.png">
 
 ### Build-up of How TOs
@@ -19,6 +19,8 @@ Blog: [React - Makeover in React: W3Schools How To](https://plus-tec.blogspot.co
   <li>Responsive Column Cards</li>
   <li>List Grid View</li>
   <li>Sidenav Overlay</li>
+  <li>Shrink Navbar on Scroll</li>
+  <li>Read More Read Less</li>
 </ul>
 
 # Customer Libraries

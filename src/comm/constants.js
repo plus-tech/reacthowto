@@ -12,6 +12,8 @@ export const MenuItemText = {
   listgridview: 'ListGridView',
   sidenav: 'SideNav',
   compareimg: 'CompareImages',
+  shrinknavbar: 'ShrinkNavBar',
+  readmoreless: 'Read More Read Less',
 
 };
 
@@ -27,6 +29,8 @@ export const MenuItemPath = {
   listgridview: '/listgridview',
   sidenav: '/sidenav',
   compareimg: '/compareimg',
+  shrinknavbar: '/shrinknavbar',
+  readmoreless: '/readmoreless',
 
 };
 

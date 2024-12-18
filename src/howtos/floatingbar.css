@@ -10,6 +10,7 @@
 
   position: absolute;
   top: var(--headerheight);
+  left: var(--sidenavwidth);
   /* transform: translate(-50%, -50%); */
   /* top: 0; */
   width: 6.3em;

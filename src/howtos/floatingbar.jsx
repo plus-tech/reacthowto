@@ -14,7 +14,7 @@ export default function FloatingBar(){
       const scrollY = window.scrollY;
       setTop(HeaderHeight+scrollY);
     };
-    
+
     window.addEventListener('scroll', handleScroll);
     return () => {
       window.removeEventListener('scroll', handleScroll);
@@ -26,8 +26,8 @@ export default function FloatingBar(){
       <div className='quickbar' style={{top: `${top}px`}}>
         <div className='quickbar-title'>Floating Bar</div>
         <div className='quickbar-container'>
-          <a href='#' onClick={() => {setTop(top+100);}}>Go down</a>
-          <a href='#' onClick={() => {setTop(top-100);}}>Go up</a>
+          <a href='#' onClick={() => {setTop(top+100);}}>Shortcut</a>
+          <a href='#' onClick={() => {setTop(top-100);}}>Shortcut</a>
           <a href='#'>Shortcut</a>
           <a href='#'>Shortcut</a>
         </div>
