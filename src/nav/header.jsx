@@ -25,7 +25,7 @@ export default function ResponsiveHeader() {
         <a href="#" className="menuitem" onClick={() => {navigate(MenuItemPath.accordion);}}>{MenuItemText.accordion}</a>
         <a href="#" className="menuitem" onClick={() => {navigate(MenuItemPath.floatingbar);}}>{MenuItemText.floatingbar}</a>
         <a href="#" className="menuitem" onClick={() => {navigate(MenuItemPath.expandinggrid);}}>{MenuItemText.expandinggrid}</a>
-
+        <a href="#" className="menuitem" onClick={() => {navigate(MenuItemPath.test);}}>{MenuItemText.test}</a>
         <div className="dropdown">
           <button className="dropbtn">
             More&nbsp;

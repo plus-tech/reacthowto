@@ -2,6 +2,7 @@ export const HeaderHeight = 99;
 
 export const MenuItemText = {
   default: 'How To',
+  test: 'Test',
   slideshow: 'SlideShow',
   layout: 'Layout',
   excel: 'Excel',
@@ -14,11 +15,14 @@ export const MenuItemText = {
   compareimg: 'CompareImages',
   shrinknavbar: 'ShrinkNavBar',
   readmoreless: 'Read More Read Less',
+  scrolltotopbtn: 'Scroll To Top Button',
+  tabgallery: 'Tab Gallery',
 
 };
 
 export const MenuItemPath = {
   default: '/',
+  test: '/test',
   slideshow: '/slideshow',
   layout: '/layout',
   excel: '/excel',
@@ -31,6 +35,8 @@ export const MenuItemPath = {
   compareimg: '/compareimg',
   shrinknavbar: '/shrinknavbar',
   readmoreless: '/readmoreless',
+  scrolltotopbtn: '/scrolltotopbtn',
+  tabgallery: '/tabgallery',
 
 };
 

@@ -1,0 +1,11 @@
+@import '../css/commstyle.css';
+
+.dark, .dark p, .dark label{
+  background-color: black;
+  color: 'white';
+}
+
+.light, .light p, .light label{
+  background-color: inherit;
+  color: inherit;
+}

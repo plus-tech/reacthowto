@@ -21,6 +21,8 @@ Blog: [React - Makeover in React: W3Schools How To](https://plus-tec.blogspot.co
   <li>Sidenav Overlay</li>
   <li>Shrink Navbar on Scroll</li>
   <li>Read More Read Less</li>
+  <li>Scroll To Top Button</li>
+  <li>Tab Gallery</li>
 </ul>
 
 # Customer Libraries

@@ -23,10 +23,10 @@ export default function SideNav(){
         <a className='howto' href="#" onClick={() => navigate(MenuItemPath.slideshow)}>{MenuItemText.slideshow}</a>
         <a className='howto' href="#" onClick={() => navigate(MenuItemPath.shrinknavbar)}>{MenuItemText.shrinknavbar}</a>
         <a className='howto' href="#" onClick={() => navigate(MenuItemPath.readmoreless)}>{MenuItemText.readmoreless}</a>
+        <a className='howto' href="#" onClick={() => navigate(MenuItemPath.scrolltotopbtn)}>{MenuItemText.scrolltotopbtn}</a>
+        <a className='howto' href="#" onClick={() => navigate(MenuItemPath.tabgallery)}>{MenuItemText.tabgallery}</a>
         <a className='howto' href="#">{MenuItemText.default}</a>
         <a className='howto' href="#">{MenuItemText.default}</a>
-        <a className='howto' href="#">{MenuItemText.default}</a>
-
         <div className='note'>
           <p>Makeover in React</p>
           <a className='referto' href="https://www.w3schools.com/howto/default.asp">

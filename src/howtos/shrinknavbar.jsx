@@ -15,9 +15,10 @@ export default function ShrinkNavBar(){
     const handleScroll = () => {
       const bodyscrolltop = document.body.scrollTop;
       const elemscrolltop = document.documentElement.scrollTop;
-
+      //
+      // for debug
       // const scrollY = window.scrollY;
-      // setScrollval(scrollY.toString() + ' ' + bodyscrolltop.toString() + ' ' + elemscrolltop.toString());
+      console.log(bodyscrolltop.toString() + ' - ' + elemscrolltop.toString());
 
       if (bodyscrolltop > 80 || elemscrolltop > 80) {
         setBarpadding("30px 10px");

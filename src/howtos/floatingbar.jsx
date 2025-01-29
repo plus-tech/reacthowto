@@ -13,6 +13,11 @@ export default function FloatingBar(){
     const handleScroll = () => {
       const scrollY = window.scrollY;
       setTop(HeaderHeight+scrollY);
+      //
+      // for debug
+      const bodyscrolltop = document.body.scrollTop;
+      const elemscrolltop = document.documentElement.scrollTop;
+      console.log(bodyscrolltop.toString() + ' - ' + elemscrolltop.toString());
     };
 
     window.addEventListener('scroll', handleScroll);

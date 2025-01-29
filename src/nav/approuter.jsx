@@ -3,6 +3,7 @@ import {
   Routes,
 } from 'react-router-dom';
 
+import Test from '../test/test.jsx';
 import SlideCarousel from '../howtos/slidecarousel.jsx';
 import Layout from '../howtos/layout.jsx';
 import Accordion from '../howtos/accordion.jsx';
@@ -15,6 +16,8 @@ import SideNav from '../nav/sidenav.jsx';
 import CompareImg from '../howtos/compareimg.jsx';
 import ShrinkNavBar from '../howtos/shrinknavbar.jsx';
 import ReadMoreLess from '../howtos/readmoreless.jsx';
+import ScrollToTopBtn from '../howtos/scrolltotopbtn.jsx';
+import TabGallery from '../howtos/tabgallery.jsx';
 
 
 import { MenuItemText, MenuItemPath } from '../comm/constants.js';
@@ -22,6 +25,7 @@ import { MenuItemText, MenuItemPath } from '../comm/constants.js';
 export default function AppRouter(){
     return(
       <Routes>
+        <Route path={MenuItemPath.test}               element={<Test />} />
         <Route path={MenuItemPath.default}            element={<SlideCarousel />} />
         <Route path={MenuItemPath.slideshow}          element={<SlideCarousel />} />
         <Route path={MenuItemPath.layout}             element={<Layout />} />
@@ -35,6 +39,8 @@ export default function AppRouter(){
         <Route path={MenuItemPath.compareimg}         element={<CompareImg />} />
         <Route path={MenuItemPath.shrinknavbar}       element={<ShrinkNavBar />} />
         <Route path={MenuItemPath.readmoreless}       element={<ReadMoreLess />} />
+        <Route path={MenuItemPath.scrolltotopbtn}     element={<ScrollToTopBtn />} />
+        <Route path={MenuItemPath.tabgallery}         element={<TabGallery />} />
 
       </Routes>
     );
