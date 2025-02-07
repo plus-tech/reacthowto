@@ -44,9 +44,9 @@
 /* The expanding image container */
 .tabgallery .container {
   position: relative;
-  /* display: none; */
+  display: none;
   margin-top: 10px;
-  visibility: hidden;
+  /* visibility: hidden; */
 }
 
 .tabgallery .container img {

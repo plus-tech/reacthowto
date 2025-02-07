@@ -34,7 +34,16 @@ export default function ResponsiveHeader() {
           <div className="dropdown-content">
             <a href="#" onClick={() => {navigate(MenuItemPath.columncards);}}>{MenuItemText.columncards}</a>
             <a href="#" onClick={() => {navigate(MenuItemPath.listgridview);}}>{MenuItemText.listgridview}</a>
-            <a href="#" onClick={() => {navigate(MenuItemPath.compareimg);}}>{MenuItemText.compareimg}</a>
+            <a href="#" onClick={() => navigate(MenuItemPath.shrinknavbar)}>{MenuItemText.shrinknavbar}</a>
+            <a href="#" onClick={() => navigate(MenuItemPath.readmoreless)}>{MenuItemText.readmoreless}</a>
+            <a href="#" onClick={() => navigate(MenuItemPath.scrolltotopbtn)}>{MenuItemText.scrolltotopbtn}</a>
+            <a href="#" onClick={() => navigate(MenuItemPath.tabgallery)}>{MenuItemText.tabgallery}</a>
+            <a href="#" onClick={() => navigate(MenuItemPath.imggallery)}>{MenuItemText.imggallery}</a>
+            <a href="#" onClick={() => navigate(MenuItemPath.portfgallery)}>{MenuItemText.portfgallery}</a>
+            <a href="#" onClick={() => navigate(MenuItemPath.signup)}>{MenuItemText.signup}</a>
+            <a href="#" onClick={() => navigate(MenuItemPath.multistepform)}>{MenuItemText.multistepform}</a>
+
+            <a href="#" onClick={() => navigate(MenuItemPath.default)}>{MenuItemText.default}</a>
           </div>
         </div>
 

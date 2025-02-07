@@ -1,0 +1,52 @@
+.imggallery .imgcontainer {
+  overflow: auto;
+}
+
+.imggallery .responsive {
+  padding: 3px 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+.imggallery div.gallery {
+  border: 1px solid #ccc;
+  width:  auto;
+  overflow: hidden;
+}
+
+.imggallery div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+.imggallery div.gallery:hover {
+  border: 1px solid #777;
+}
+
+.imggallery div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+.imggallery * {
+  box-sizing: border-box;
+}
+
+@media only screen and (max-width: 700px) {
+  .imggallery .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .imggallery .responsive {
+    width: 100%;
+  }
+}
+
+.imggallery .clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}

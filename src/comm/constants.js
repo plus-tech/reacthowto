@@ -9,14 +9,18 @@ export const MenuItemText = {
   accordion: 'Accordion',
   floatingbar: 'FloatingBar',
   expandinggrid: 'ExpandingGrid',
-  columncards: 'ColumnCards',
-  listgridview: 'ListGridView',
-  sidenav: 'SideNav',
-  compareimg: 'CompareImages',
-  shrinknavbar: 'ShrinkNavBar',
+  columncards: 'Column Cards',
+  listgridview: 'List Grid View',
+  sidenav: 'Side Nav',
+  compareimg: 'Compare Images',
+  shrinknavbar: 'Shrink NavBar',
   readmoreless: 'Read More Read Less',
   scrolltotopbtn: 'Scroll To Top Button',
   tabgallery: 'Tab Gallery',
+  imggallery: 'Image Gallery',
+  portfgallery: 'Portfolio Gallery',
+  signup: 'Sign Up',
+  multistepform: 'Multiple Step Form',
 
 };
 
@@ -37,6 +41,10 @@ export const MenuItemPath = {
   readmoreless: '/readmoreless',
   scrolltotopbtn: '/scrolltotopbtn',
   tabgallery: '/tabgallery',
+  imggallery: '/imggallery',
+  portfgallery: '/portfoliogallery',
+  signup: '/signup',
+  multistepform: '/multistepform',
 
 };
 

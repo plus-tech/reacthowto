@@ -23,6 +23,9 @@ Blog: [React - Makeover in React: W3Schools How To](https://plus-tec.blogspot.co
   <li>Read More Read Less</li>
   <li>Scroll To Top Button</li>
   <li>Tab Gallery</li>
+  <li>Image Gallery</li>
+  <li>Signup Form</li>
+  <li>Multiple Step Form</li>
 </ul>
 
 # Customer Libraries

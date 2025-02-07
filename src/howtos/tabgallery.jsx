@@ -5,7 +5,7 @@ import Reference from '../comm/reference.jsx';
 import './tabgallery.css';
 
 //
-// Load a list of images from a folder which are managed on demand
+// Load a list of images from the specified folder which are managed on demand
 //
 const images = require.context('../imggallery', true);
 const imageList = images.keys().map(image => images(image));
@@ -19,8 +19,8 @@ const TabGallery = React.memo(function TabGallery() {
   const myFunction = (imgs, text) => {
     expandedImg.current.src = imgs;
     imgText.current.innerHTML = text;
-    // imgContainer.current.style.display = "block";
-    imgContainer.current.style.visibility = 'visible';
+    imgContainer.current.style.display = "block";
+    // imgContainer.current.style.visibility = 'visible';
   };
 
   return (
@@ -44,7 +44,7 @@ const TabGallery = React.memo(function TabGallery() {
 
       <div className="container" ref={imgContainer}>
         <span
-          onClick={() => {imgContainer.current.style.visibility='hidden'}}
+          onClick={() => {imgContainer.current.style.display='none'}}
           className="closebtn">
           &times;
         </span>

@@ -1,6 +1,8 @@
 .App {
   text-align: center;
   overflow: auto;
+
+  min-height: inherit;
 }
 
 /* .App-logo {
