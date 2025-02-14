@@ -21,7 +21,6 @@ export default function SideNav(){
     <div>
       <div className="sidenav">
         <a className='howto' href="#" onClick={() => navigate(MenuItemPath.slideshow)}>{MenuItemText.slideshow}</a>
-        <a className='howto' href="#" onClick={() => {navigate(MenuItemPath.compareimg);}}>{MenuItemText.compareimg}</a>
         <a className='howto' href="#">{MenuItemText.default}</a>
         <a className='howto' href="#">{MenuItemText.default}</a>
         <div className='note'>

@@ -42,7 +42,7 @@ export default function ResponsiveHeader() {
             <a href="#" onClick={() => navigate(MenuItemPath.portfgallery)}>{MenuItemText.portfgallery}</a>
             <a href="#" onClick={() => navigate(MenuItemPath.signup)}>{MenuItemText.signup}</a>
             <a href="#" onClick={() => navigate(MenuItemPath.multistepform)}>{MenuItemText.multistepform}</a>
-
+            <a href="#" onClick={() => navigate(MenuItemPath.compareimg)}>{MenuItemText.compareimg}</a>
             <a href="#" onClick={() => navigate(MenuItemPath.default)}>{MenuItemText.default}</a>
           </div>
         </div>

@@ -18,9 +18,10 @@ import ShrinkNavBar from '../howtos/shrinknavbar.jsx';
 import ReadMoreLess from '../howtos/readmoreless.jsx';
 import ScrollToTopBtn from '../howtos/scrolltotopbtn.jsx';
 import TabGallery from '../howtos/tabgallery.jsx';
+import ImageGallery from '../howtos/imagegallery.jsx';
+import PortfolioGallery from '../howtos/portfoliogallery.jsx';
 import SignupForm from '../howtos/signupform.jsx';
 import MultiStepForm from '../howtos/multistepform.jsx';
-import ImageGallery from '../howtos/imagegallery.jsx';
 
 
 import { MenuItemText, MenuItemPath } from '../comm/constants.js';
@@ -45,6 +46,7 @@ export default function AppRouter(){
         <Route path={MenuItemPath.scrolltotopbtn}     element={<ScrollToTopBtn />} />
         <Route path={MenuItemPath.tabgallery}         element={<TabGallery />} />
         <Route path={MenuItemPath.imggallery}         element={<ImageGallery />} />
+        <Route path={MenuItemPath.portfgallery}       element={<PortfolioGallery />} />
         <Route path={MenuItemPath.signup}             element={<SignupForm />} />
         <Route path={MenuItemPath.multistepform}      element={<MultiStepForm />} />
 
