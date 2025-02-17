@@ -1,0 +1,21 @@
+.imagemagnifier * {box-sizing: border-box;}
+
+.imagemagnifier {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.imagemagnifier .img-magnifier-container {
+  position:relative;
+}
+
+.imagemagnifier .img-magnifier-glass {
+  position: absolute;
+  border: 3px solid #000;
+  border-radius: 50%;
+  cursor: none;
+  /*Set the size of the magnifier glass:*/
+  width: 100px;
+  height: 100px;
+}

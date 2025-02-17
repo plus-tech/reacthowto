@@ -1,0 +1,35 @@
+.imagezoom * {box-sizing: border-box;}
+
+.imagezoom {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.imagezoom .img-zoom-container {
+  position: relative;
+  float: left;
+}
+.imagezoom .row:after {
+  content: '';
+  clear: both;
+  display: table;
+}
+
+.imagezoom .img-zoom-lens {
+  position: absolute;
+  border: 1px solid #d4d4d4;
+  /*set the size of the lens:*/
+  width: 40px;
+  height: 40px;
+}
+
+.imagezoom .img-zoom-result {
+  border: 1px solid #d4d4d4;
+  /*set the size of the result div:*/
+  width: 240px;
+  height: 240px;
+
+  float: left;
+  margin: 0 5px;
+}

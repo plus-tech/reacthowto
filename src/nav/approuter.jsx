@@ -20,6 +20,8 @@ import ScrollToTopBtn from '../howtos/scrolltotopbtn.jsx';
 import TabGallery from '../howtos/tabgallery.jsx';
 import ImageGallery from '../howtos/imagegallery.jsx';
 import PortfolioGallery from '../howtos/portfoliogallery.jsx';
+import ImageZoom from '../howtos/imagezoom.jsx';
+import ImageMagnifier from '../howtos/imagemagnifier.jsx';
 import SignupForm from '../howtos/signupform.jsx';
 import MultiStepForm from '../howtos/multistepform.jsx';
 
@@ -47,6 +49,8 @@ export default function AppRouter(){
         <Route path={MenuItemPath.tabgallery}         element={<TabGallery />} />
         <Route path={MenuItemPath.imggallery}         element={<ImageGallery />} />
         <Route path={MenuItemPath.portfgallery}       element={<PortfolioGallery />} />
+        <Route path={MenuItemPath.imagezoom}          element={<ImageZoom />} />
+        <Route path={MenuItemPath.imagemagnifier}     element={<ImageMagnifier />} />
         <Route path={MenuItemPath.signup}             element={<SignupForm />} />
         <Route path={MenuItemPath.multistepform}      element={<MultiStepForm />} />
 

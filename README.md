@@ -28,6 +28,8 @@ Blog: [React - Makeover in React: W3Schools How To](https://plus-tec.blogspot.co
   <li>Signup Form</li>
   <li>Multiple Step Form</li>
   <li>Image Comparison Slider</li>
+  <li>Image Zoom</li>
+  <li>Image Magnifier Glass</li>
 </ul>
 
 # Customer Libraries

@@ -19,6 +19,8 @@ export const MenuItemText = {
   tabgallery: 'Tab Gallery',
   imggallery: 'Image Gallery',
   portfgallery: 'Portfolio Gallery',
+  imagezoom: 'Image Zoom',
+  imagemagnifier: 'Image Magnifier Glass',
   signup: 'Sign Up',
   multistepform: 'Multiple Step Form',
 
@@ -43,6 +45,8 @@ export const MenuItemPath = {
   tabgallery: '/tabgallery',
   imggallery: '/imggallery',
   portfgallery: '/portfoliogallery',
+  imagezoom: '/imagezoom',
+  imagemagnifier: '/imagemagnifier',
   signup: '/signup',
   multistepform: '/multistepform',
 
